@@ -33,5 +33,26 @@
       }
     ]
   },
+ "lunch": {
+    "order": 2,
+    "display_text": {
+      "en-US": "Lunch",
+      "zh-TW": "午餐"
+    },
+    "available_time": "2018/03/10 11:50 +0800",
+    "expire_time": "2018/03/10 16:00 +0800",
+    "countdown": 30,
+    "lock_message": "你還沒點報到鈕",
+    "attr": [
+      {
+        "row_name": "飲食",
+        "attr_name": "diet",
+        "value": {
+          "素": "vegetarian",
+          "葷": "meat"
+        }
+      }
+    ]
+  },
 }
 
