@@ -1,0 +1,53 @@
+{
+  "checkin": {
+    "order": 0,
+    "display_text": {
+      "en-US": "Check-in",
+      "zh-TW": "報到"
+    },
+    "available_time": "2018/03/10 8:00 +0800",
+    "expire_time": "2018/03/10 10:00 +0800",
+    "countdown": 0,
+    "related_scenario": [
+      {
+        "id": "kit",
+        "staff_query_used": true,
+        "unlock": true
+      }
+    ]
+  },
+  "kit": {
+    "order": 1,
+    "display_text": {
+      "en-US": "Welcome Kit",
+      "zh-TW": "迎賓袋"
+    },
+    "available_time": "2018/03/10 8:25 +0800",
+    "expire_time": "2018/03/10 16:00 +0800",
+    "countdown": 45,
+    "lock_message": "你還沒點報到鈕！"
+  },
+
+  "vipkit": {
+    "order": 2,
+    "display_text": {
+      "en-US": "Special Gift",
+      "zh-TW": "獨家紀念品"
+    },
+    "available_time": "2018/03/10 8:10 +0800",
+    "expire_time": "2018/03/10 16:00 +0800",
+    "countdown": 45,
+    "not_lock_rule": {
+      "row_name": "個人贊助",
+      "value_match": "Y",
+      "not_match_disable_message": "歡迎贊助 SITCON"
+    },
+    "attr": [
+      {
+        "row_name": "price",
+        "attr_name": "price"
+      }
+    ]
+  }
+}
+
