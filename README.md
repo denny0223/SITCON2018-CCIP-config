@@ -1,4 +1,4 @@
-SITCON 2017 CCIP Server config
+SITCON 2018 CCIP Server config
 ===
 
 https://github.com/CCIP-App/CCIP-Server/blob/master/app/config-sample.py
