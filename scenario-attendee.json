@@ -20,7 +20,7 @@
         "disable_message": "太晚報到囉 owoooo",
         "staff_query_disable_message": "請出示您的 QR Code 領取午餐",
         "unlock": true
-	}
+	  }
     ]
   },
   "kit": {

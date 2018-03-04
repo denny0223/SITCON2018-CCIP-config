@@ -6,14 +6,21 @@
       "zh-TW": "報到"
     },
     "available_time": "2018/03/10 8:00 +0800",
-    "expire_time": "2018/03/10 17:00 +0800",
+    "expire_time": "2018/03/10 16:30 +0800",
     "countdown": 0,
     "related_scenario": [
       {
         "id": "kit",
         "staff_query_used": true,
         "unlock": true
-      }
+      },
+      {
+        "id": "lunch",
+        "disable_time": "2018/03/10 10:00 +0800",
+        "disable_message": "太晚報到囉 owoooo",
+        "staff_query_disable_message": "請出示您的 QR Code 領取午餐",
+        "unlock": true
+	  }
     ]
   },
   "kit": {
@@ -23,7 +30,7 @@
       "zh-TW": "講師迎賓袋"
     },
     "available_time": "2018/03/10 8:00 +0800",
-    "expire_time": "2018/03/10 17:00 +0800",
+    "expire_time": "2018/03/10 16:00 +0800",
     "countdown": 45,
     "lock_message": "你還沒點報到鈕",
     "attr": [
@@ -33,15 +40,15 @@
       }
     ]
   },
- "lunch": {
+  "lunch": {
     "order": 2,
     "display_text": {
       "en-US": "Lunch",
       "zh-TW": "午餐"
     },
-    "available_time": "2018/03/10 11:50 +0800",
+    "available_time": "2018/03/10 11:30 +0800",
     "expire_time": "2018/03/10 16:00 +0800",
-    "countdown": 30,
+    "countdown": 45,
     "lock_message": "你還沒點報到鈕",
     "attr": [
       {
