@@ -35,16 +35,8 @@
     "lock_message": "你還沒點報到鈕",
     "attr": [
       {
-        "row_name": "shirt_size",
-        "attr_name": "shirt_size"
-      },
-      {
-        "row_name": "paper",
-        "attr_name": "paper"
-      },
-      {
-        "row_name": "travel",
-        "attr_name": "travel"
+        "row_name": "attrs",
+        "attr_name": "attrs"
       }
     ]
   },
